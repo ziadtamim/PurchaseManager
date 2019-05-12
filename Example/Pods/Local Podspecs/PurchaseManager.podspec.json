@@ -1,0 +1,28 @@
+{
+  "name": "PurchaseManager",
+  "version": "0.1.0",
+  "summary": "A Lightweight In App Purchase framework for iOS",
+  "homepage": "https://github.com/ziadtamim/PurchaseManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ziad Tamim": "hey@byziad.com"
+  },
+  "source": {
+    "git": "https://github.com/ziadtamim/PurchaseManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PurchaseManager/Classes/**/*",
+  "frameworks": "StoreKit",
+  "dependencies": {
+    "Bolts-Swift": [
+      "~> 1.4"
+    ]
+  },
+  "swift_version": "4.2"
+}

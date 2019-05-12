@@ -1,0 +1,23 @@
+PODS:
+  - Bolts-Swift (1.4.0)
+  - PurchaseManager (0.1.0):
+    - Bolts-Swift (~> 1.4)
+
+DEPENDENCIES:
+  - PurchaseManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts-Swift
+
+EXTERNAL SOURCES:
+  PurchaseManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bolts-Swift: 650d72e8017721b1a6bbe43d542c4578f8e5ba6f
+  PurchaseManager: b3bf085017c480fb386da7fd05fc20b47768cba4
+
+PODFILE CHECKSUM: e30a5b19bd1342c03514581fa83404c1c1bccb86
+
+COCOAPODS: 1.6.1
