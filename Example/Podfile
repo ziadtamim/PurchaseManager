@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PurchaseManager_Example' do
+  pod 'PurchaseManager', :path => '../'
+
+  target 'PurchaseManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
